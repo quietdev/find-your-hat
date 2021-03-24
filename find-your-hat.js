@@ -11,7 +11,9 @@ class Field {
   }
 
   fieldStatus() {
-    console.log(this._field.join("/n"));
+    for(let x in this._field) {
+      console.log(this._field[x].join(''));
+    }
   }
 }
 
