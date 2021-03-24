@@ -18,9 +18,7 @@ class Field {
 
   gameLoop() {
     while (this.gameStatus != false) {  //makes the game run as long as the gameStatus is true
-        if(this.promptStatus = false) {
-
-        }
+        
     }
   }
 
